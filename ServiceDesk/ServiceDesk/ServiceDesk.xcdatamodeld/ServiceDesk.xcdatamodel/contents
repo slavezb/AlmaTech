@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Atendente" representedClassName="Atendente" syncable="YES">
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Clientes" representedClassName="Clientes" syncable="YES">
+        <attribute name="empresa" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Incidentes" representedClassName="Incidentes" syncable="YES">
+        <attribute name="atendente" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cliente" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="creation_time" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Atendente" positionX="-45" positionY="0" width="128" height="75"/>
+        <element name="Incidentes" positionX="-18" positionY="45" width="128" height="135"/>
+        <element name="Clientes" positionX="9" positionY="108" width="128" height="90"/>
+    </elements>
+</model>
