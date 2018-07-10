@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 12:11:40 AM
+    Author     : Bubs
+*/
+
+@charset "utf-8";
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #EEE9E9; /*snow2*/
+
+    
+}
+
+.header{
+    width: 97%;
+    height: 100px;
+    background-color: white;
+	background-image: url("https://thumbs.dreamstime.com/b/teste-padr%C3%A3o-retro-de-f-rmas-geom%C3%A9tricas-mosaico-colorido-50434342.jpg");
+
+    background-repeat: repeat;
+    background-position: top;
+    padding-right: 30px;
+    padding-left: 140px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+
+.text{
+	font-family: 'Raleway', sans-serif;
+}
+
+.text h1{
+	font-size: 32pt;
+	font-style: none;
+}
+
+.text h2{
+	text-align: center;
+}
+
+.container{
+	padding: 30px;
+    width: 95%;
+    height: 100px;
+    background-color: #FFF5EE; /*seashell1*/
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);  /* For IE8 and earlier */
+    color: white;
+    text-align:justify;
+    margin-bottom: 10px;
+	margin-right:10px;
+}
+
+.container1{
+	padding: 30px;
+    width: 95%;
+    height: 440px;
+    background-color: #FFF5EE; /*seashell1*/
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);  /* For IE8 and earlier */
+    color: black;
+    text-align:justify;
+    margin-bottom: 10px;
+	margin-right:10px;
+}
+
+.button-app1{
+	
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	text-align:justify;
+	margin-bottom: 10px;
+
+}
+
+
+.button-app2{
+	
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	text-align:justify;
+	margin-bottom: 10px;
+
+}
+
+
+.button-app3{
+	
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	text-align:justify;
+	margin-bottom: 10px;
+	
+}
+
+.button-app4{
+	
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	text-align:justify;
+	margin-bottom: 10px;
+	
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: #BEBEBE; /*grey*/
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nav2 h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 ul{
+    float: right;
+    margin-right: 500px;
+}
+
+.nav2 ul li{
+    display: inline-block;
+    list-style-type: normal;
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;  
+    padding: 20px;
+}
+
+.nav2 ul li:hover {
+    background: #888;
+    height: 20px;
+}
+
+
+/*CSS para inclusao e posts*/
+.postet1 {
+    padding:30px;
+    margin-bottom:4px;
+    width:750px;
+    background-color:#FFCCCC;
+    }
+	
+#entriest1 {
+    position:absolute;
+    overflow:hidden;
+    margin-left:275px;
+    margin-top:240px;
+    width:805px;
+	height: 400px;
+    }	
+
+
+
+
